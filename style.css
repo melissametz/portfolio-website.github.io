@@ -1,0 +1,89 @@
+/* -------  General Styles ------- */
+
+body {
+  background-color:#83c5be;
+  font-family: Arial, Tahoma, serif;
+  margin: 10px;
+}
+
+header {
+  font-family: monospace, serif;
+  height: 10px;
+  padding-top: 3px;
+  text-align: center;
+  color: white;
+}
+
+.box {
+  background-color: teal;
+  text-align: center;
+  margin: 20px;
+  padding: 0px;
+}
+
+.round {
+  border-radius: 20px;
+}
+
+p{
+text-align: center, justify;  
+}
+
+footer {
+	color: teal;
+  text-align: center;
+}
+
+section {
+	padding: 0 25%;
+  margin: 80px 0;
+}
+
+/* -------  Type ------- */
+
+h2, h3 {
+  font-family: monospace;
+	color: #fffffc;
+  text-align: center;
+  font-weight: 500;
+}
+
+h1 { font-size: 40px; }
+h2 { font-size: 30px; }
+h3 { font-size: 30px; }
+h4 { 
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 30px; 
+	color: #fffffc;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+img{   
+ height: 100%;
+ width: 100%;
+ text-align: center;
+ }
+
+li {
+ font-family: sans-serif, serif;
+ line-height: 1.5em;
+ margin-bottom: 0;
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+
+/* hyperlink action styling*/
+a:link { color: #edf6f9;}
+a:visited { color:#ffddd2}
+a:hover { color: #e29578}
+a:active { color: #006d77 }
+a:hover {
+	text-decoration: underline;	
+}
+
+
